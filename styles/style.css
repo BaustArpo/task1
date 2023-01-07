@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+/* Header and navigation */
+header {
+  margin-bottom: 150px;
+}
+.header {
+  background: #fff8f3;
+  background-image: url(../images/banner1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 669px;
+  left: 0px;
+  top: 0px;
+}
+.head-container {
+  display: flex;
+  gap: 500px;
+}
+hr {
+  margin-bottom: 100px;
+}
+
+.help {
+  border: solid red;
+}
+.header-title {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 76px;
+  text-align: right;
+  color: #151414;
+}
+.header-description {
+  position: absolute;
+  width: 494px;
+  height: 78px;
+  left: 876px;
+  top: 468px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: right;
+  color: #444343;
+}
+.btn-primary {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  border: 0;
+  padding: 18px 35px;
+  height: 64px;
+  border-radius: 5px;
+  background: #fd6e0a;
+}
+/* About me */
+.about-me {
+  margin-bottom: 60px;
+}
+.about-me-container {
+  display: flex;
+}
+.div-1 {
+  margin-left: 200px;
+  background-color: #444343;
+  border-radius: 25px;
+}
+.about-img {
+  height: 500px;
+}
+.div-2 {
+  margin-left: 200px;
+}
+.div-2-title {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  margin-bottom: 50px;
+  color: #151414;
+}
+.div-2-description {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  margin-bottom: 60px;
+}
+.div-2-description-2 {
+  text-align: left;
+  width: 213px;
+  height: 24.07px;
+  left: 896px;
+  top: 1553.93px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+}
+/* my plan */
+.my-plan-header {
+  width: 179px;
+  height: 47px;
+  left: 711px;
+  top: 1792.3px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+  margin-bottom: 20px;
+}
+.skill-container {
+  display: flex;
+  margin-top: 130px;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.skill-title {
+  width: 270px;
+  height: 35px;
+  left: 230px;
+  top: 2012.26px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #151414;
+}
+.skill-description {
+  width: 177px;
+  height: 29px;
+  left: 277px;
+  top: 2063.26px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  color: #737272;
+}
+/* linear */
+.linear-gradient {
+  margin-bottom: 100px;
+}
+.linear {
+  width: 1000px;
+  height: 200px;
+  left: 230px;
+  background-repeat: no-repeat;
+  top: 2222.26px;
+  background-size: contain;
+  background-image: linear-gradient(
+      90deg,
+      #f15b22 0%,
+      rgba(241, 91, 34, 0) 100%
+    ),
+    url(/images/watch.png);
+  border-radius: 8px;
+}
+.linear-title {
+  text-align: left;
+  padding: 50px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 47px;
+  color: #ffffff;
+}
+.call-button {
+  margin-right: 800px;
+  cursor: pointer;
+  border-radius: 5px;
+  border-color: #f15b22;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "Work Sans";
+  color: #f15b22;
+  padding: 10px;
+}
+.footer {
+  width: 1600px;
+  height: 577px;
+  left: 0px;
+  top: 2652.26px;
+  background: #151414;
+  margin-top: 0;
+}
+.container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+}
+.inner-container{
+    display: flex;
+    gap: 20px;
+}
+.future {
+  text-align: left;
+  padding: 100px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  /* identical to box height */
+
+  color: #f8f8f8;
+}
+.future-text{
+width: 485px;
+height: 78px;
+left: 230px;
+top: 2851.26px;
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FFFFFF;
+margin-left: 100px;
+}
+.future-2{
+    margin-right: 200px;
+}
+.call-button-2{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background: #fd6e0a;
+}
+.email{
+    padding: 20px;
+    border-radius: 10px;
+    background: #151414;
+    color: #fff8f3;
+}
